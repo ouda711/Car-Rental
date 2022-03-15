@@ -1,0 +1,110 @@
+.top__header{
+  position: relative;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+}
+.top__header__left{
+  position: relative;
+}
+.top__header__left a{
+  margin: 0 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+.top__header__right a{
+  display: inline-block;
+  font-size: 0.9rem;
+}
+.user__icon{
+  color: #212f3c;
+}
+.top__header__right{
+  position: relative;
+  display: flex;
+}
+.user__options{
+  margin-left: 1.5rem;
+}
+.user__links{
+  display: inline-block;
+  margin :0 0.25rem;
+}
+.bottom__header{
+  position: relative;
+  width: 100%;
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.phone__contact{
+  position: relative;
+  display: flex;
+}
+.contact__icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #E8D426;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #212f3c;
+}
+.contact__text{
+  margin-left: 1rem;
+}
+.contact__initial__text{
+  color: #212f3c;
+  opacity: 0.8;
+  font-size: 0.95rem;
+}
+.contact__detail{
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+.contact__extra{
+  color: #212f3c;
+  opacity: 0.8;
+  font-size: 0.95rem;
+}
+.navbar{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2 !important;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 0.5rem;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: #E8D426!important;
+}
+.topnav a.active {
+  background-color: #E8D426;
+  color: white;
+}

@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,a:focus,a:hover{
+  text-decoration: none !important;
+}
+a{
+  color: #212f3c!important;
+}
+a:hover{
+  color: #E8D426!important;
+}

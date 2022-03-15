@@ -18,7 +18,8 @@ import 'sanitize.css/sanitize.css';
 
 // Import root app
 import App from 'containers/App';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'boxicons';
 // Import Language Provider
 import LanguageProvider from 'containers/LanguageProvider';
 
