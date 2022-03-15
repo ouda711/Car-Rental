@@ -8,11 +8,13 @@
 import React from 'react';
 import MainHeader from '../../components/headers/MainHeader';
 import HomeSection from '../../components/sections/HomeSection';
+import HomeCardSection from '../../components/sections/HomeCardSection';
 export default function HomePage() {
   return (
     <>
       <MainHeader />
       <HomeSection />
+      <HomeCardSection />
     </>
   );
 }

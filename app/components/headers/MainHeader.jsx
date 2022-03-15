@@ -79,7 +79,7 @@ function MainHeader() {
         </div>
       </div>
 
-      <nav className="navbar navbar-dark bg-dark">
+      <nav className="navbar navbar-dark bg-dark sticky-top">
         <div className="topnav">
           <a className="active" href="#home">Home</a>
           <a href="#news">Reservation</a>
