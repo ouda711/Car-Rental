@@ -1,0 +1,41 @@
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll__button{
+  position: absolute;
+  top: 40%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  z-index: 9;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.button__right{
+  right: 0;
+  margin-right: 1rem;
+}
+.scroll__item{
+  background: #E8D426 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.image__holder{
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+.image__holder img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
