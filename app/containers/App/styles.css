@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background: #e5e8e8;
+  background-color: #878787 !important;
 }
 a,a:focus,a:hover{
   text-decoration: none !important;
