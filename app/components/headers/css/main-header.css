@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #ffffff;
   border-bottom: 0.01rem solid rgba(0,0,0,0.1);
 }
 .top__header__left{
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #ffffff;
 }
 .contact__container{
   position: relative;

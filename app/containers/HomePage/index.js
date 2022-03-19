@@ -10,6 +10,9 @@ import MainHeader from '../../components/headers/MainHeader';
 import HomeSection from '../../components/sections/HomeSection';
 import HomeCardSection from '../../components/sections/HomeCardSection';
 import RentalCarSection from '../../components/sections/RentalCarSection';
+import AdvertSection from '../../components/sections/AdvertSection';
+import CarCategories from '../../components/sections/CarCategories';
+import MainFooter from '../../components/footer/MainFooter';
 export default function HomePage() {
   return (
     <>
@@ -17,6 +20,9 @@ export default function HomePage() {
       <HomeSection />
       <HomeCardSection />
       <RentalCarSection />
+      <AdvertSection />
+      <CarCategories />
+      <MainFooter />
     </>
   );
 }
